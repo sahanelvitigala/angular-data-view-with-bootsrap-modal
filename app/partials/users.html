@@ -1,0 +1,14 @@
+<div class="preloader-area" ng-hide="users.length>-1">
+    <img ng-src="img/loading-icon.gif" class="preloader-img">
+</div>
+<div class="container">
+    <h1>Users</h1>
+    <div class="alert alert-warning" ng-show="users.length==0" role="alert">
+        <i class="fa fa-ban fa-3x">No data found</i>
+    </div>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="user in users">
+            <a  ng-click="open(user._id)">{{user.name}}</a>
+        </li>
+    </ul>
+</div>

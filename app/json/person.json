@@ -1,0 +1,43 @@
+[
+  {
+    "_id": "55655c1c45ce93ec8c94a860",
+    "guid": "a1a6d3db-3b77-4fcb-b46c-fda13915337b",
+    "isActive": false,
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "eyeColor": "brown",
+    "name": "Marsh Dean",
+    "gender": "male",
+    "company": "MAGNEMO",
+    "email": "marshdean@magnemo.com",
+    "phone": "+1 (949) 475-3026",
+    "address": "823 Brighton Avenue, Hebron, Indiana, 4047",
+    "about": "Excepteur reprehenderit reprehenderit amet qui pariatur tempor nulla eiusmod qui excepteur aliquip ea. Labore officia qui laborum veniam. Aute reprehenderit cillum ea aliqua ea eu eiusmod. Ipsum enim ullamco culpa do culpa voluptate proident sit veniam Lorem Lorem duis. Sit ipsum in ullamco culpa magna duis ipsum nostrud.\r\n",
+    "registered": "2015-01-30T09:41:42 -06:-30",
+    "latitude": -57.149085,
+    "longitude": 35.682325,
+    "tags": [
+      "ullamco",
+      "eiusmod",
+      "esse",
+      "irure",
+      "aliqua",
+      "ex",
+      "reprehenderit"
+    ],
+    "friends": [
+      {
+        "id": 0,
+        "name": "Kelly Good"
+      },
+      {
+        "id": 1,
+        "name": "Peggy Garza"
+      },
+      {
+        "id": 2,
+        "name": "Travis Floyd"
+      }
+    ]
+  }
+]

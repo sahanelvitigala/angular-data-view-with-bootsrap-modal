@@ -1,0 +1,46 @@
+<button type="button" class="close" ng-click="cancel();">
+    <i class="fa fa-times-circle-o" style="margin:10px;color:blue;"></i>
+</button>
+<div class="modal-header">
+    <h1 class="modal-title">User Details</h1>
+</div>
+<div class="modal-body">
+    <img ng-src="{{user.picture}}">
+    <br>
+    <label>ID : {{user._id}}</label>
+    <br>
+    <label>Name : {{user.name}}</label>
+    <br>
+    <label>Email : {{user.email}}</label>
+    <br>
+    <label>gender : {{user.gender}}</label>
+    <br>
+    <label>guid : {{user.guid}}</label>
+    <br>
+    <label>latitude : {{user.latitude}}</label>
+    <br>
+    <label>longitude : {{user.longitude}}</label>
+    <br>
+    <label>phone : {{user.phone}}</label>
+    <br>
+    <label>registered : {{user.registered}}</label>
+    <br>
+    <label>eyeColor : {{user.eyeColor}}</label>
+    <br>
+    <label>company : {{user.company}}</label>
+    <br>
+    <label>about : {{user.about}}</label>
+    <br>
+    <label>address : {{user.address}}</label>
+    <br>
+    <label>
+        friends
+        <ul>
+            <li ng-repeat = "friend in user.friends">{{friend.name}}</li>
+        </ul>
+    </label>
+</div>
+
+
+
+
